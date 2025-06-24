@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.tags where nombre ilike '%{{tabla_tags.searchText}}%';

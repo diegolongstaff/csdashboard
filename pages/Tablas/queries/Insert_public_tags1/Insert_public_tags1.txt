@@ -1,0 +1,1 @@
+INSERT INTO public.tags ("nombre","color","icono") VALUES ('{{(tabla_tags.newRow || {}).nombre}}','{{(tabla_tags.newRow || {}).color}}','{{(tabla_tags.newRow || {}).icono}}')

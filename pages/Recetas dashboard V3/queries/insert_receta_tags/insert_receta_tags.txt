@@ -1,0 +1,7 @@
+INSERT INTO public.receta_tag (receta_id, tag_id)
+VALUES
+{{ 
+  checkbox_tags.selectedValues
+    .map(tagId => `('${appsmith.store.receta_activa_id}','${tagId}')`)
+    .join(',\n') 
+}};

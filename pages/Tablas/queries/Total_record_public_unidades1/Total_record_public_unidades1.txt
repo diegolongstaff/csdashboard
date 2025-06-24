@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.unidades where nombre ilike '%{{tabla_unidades.searchText}}%';

@@ -1,0 +1,13 @@
+UPDATE recetas 
+SET 
+  nombre = '{{ Input_nombre.text }}',
+  descripcion = '{{ Input_descripcion.text }}',
+  ingredientes_texto = '{{ Input_ingredientes.text }}',
+  porciones_base = {{ Number(Input_porciones.text) }},
+  tiempo_min = {{ Number(Input_tiempo.text) }},
+  imagen_url = '{{ Input_imagen.text }}',
+  calorias_por_porcion = {{ Number(Input_calorias.text) }},
+  proteinas_g = {{ Number(Input_proteinas.text) }},
+  grasas_g = {{ Number(Input_grasas.text) }},
+  carbohidratos_g = {{ Number(Input_carbohidratos.text) }}
+WHERE id = '{{ appsmith.store.receta_activa_id }}';

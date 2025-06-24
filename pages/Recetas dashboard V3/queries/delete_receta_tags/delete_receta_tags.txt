@@ -1,0 +1,2 @@
+DELETE FROM receta_tag
+WHERE receta_id = '{{ appsmith.store.receta_activa_id }}';

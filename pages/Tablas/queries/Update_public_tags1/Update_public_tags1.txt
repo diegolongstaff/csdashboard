@@ -1,0 +1,1 @@
+UPDATE public.tags SET "nombre"= '{{tabla_tags.updatedRow.nombre}}', "color"= '{{tabla_tags.updatedRow.color}}', "icono"= '{{tabla_tags.updatedRow.icono}}' WHERE "id"= {{tabla_tags.updatedRow.id}};

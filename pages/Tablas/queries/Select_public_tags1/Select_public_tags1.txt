@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.tags
+WHERE
+  "nombre" ilike '%{{tabla_tags.searchText}}%'
+ORDER BY
+  "{{tabla_tags.sortOrder.column || 'id'}}" {{tabla_tags.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tabla_tags.pageSize}}
+OFFSET
+  {{tabla_tags.pageOffset}}

@@ -1,0 +1,1 @@
+INSERT INTO public.unidades ("nombre","abreviatura","unidad_base_id","factor","created_at") VALUES ('{{(tabla_unidades.newRow || {}).nombre}}','{{(tabla_unidades.newRow || {}).abreviatura}}','{{(tabla_unidades.newRow || {}).unidad_base_id}}','{{(tabla_unidades.newRow || {}).factor}}','{{(tabla_unidades.newRow || {}).created_at}}')

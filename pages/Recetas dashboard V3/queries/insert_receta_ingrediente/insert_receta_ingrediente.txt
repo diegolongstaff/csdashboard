@@ -1,0 +1,22 @@
+INSERT INTO receta_ingredientes
+  (receta_id,
+   ingrediente_id,
+   cantidad_original,
+   unidad_original,
+   cantidad,
+   unidad,
+   notas,
+   cantidad_base,
+   unidad_base)
+VALUES
+  (
+    '{{ appsmith.store.receta_activa_id }}',
+    '{{ select_ingrediente.selectedOptionValue }}',
+    {{ input_cantidad.value }},
+    '{{ select_unidad.selectedOptionValue }}',
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL
+  );

@@ -1,0 +1,16 @@
+SELECT 
+  ri.id,
+  i.nombre               AS ingrediente,
+  ri.cantidad_original   AS cantidad,
+  u.abreviatura          AS unidad,         -- aquí renombramos
+  ri.cantidad_base       AS cantidad_base,
+  ub.abreviatura         AS unidad_base
+FROM receta_ingredientes ri
+JOIN ingredientes i 
+  ON i.id = ri.ingrediente_id
+LEFT JOIN unidades u 
+  ON u.id = ri.unidad_original
+LEFT JOIN unidades ub 
+  ON ub.id = ri.unidad_base
+WHERE ri.receta_id = '{{ appsmith.store.receta_activa_id }}'
+ORDER BY i.nombre;

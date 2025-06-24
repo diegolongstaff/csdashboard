@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 29,
+  "defaultSelectedValues": "{{ get_receta_tags.data.map(rt => rt.tag_id) }}\n",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "options"
+    },
+    {
+      "key": "defaultSelectedValues"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "options"
+    },
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "2is3ejhyy0",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "elegir los tags de la receta",
+  "labelWidth": 5,
+  "leftColumn": 11,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onSelectionChange": "{{\n  // 1) Borra la relación antigua\n  delete_receta_tags.run()\n    // 2) Inserta todos los seleccionados\n    .then(() => insert_receta_tags.run())\n    // 3) Refresca el store y el widget\n    .then(() => get_receta_tags.run())\n    .catch(err => showAlert(\"Error auto-guardando tags: \" + err.message, \"error\"));\n}}\n",
+  "options": "{{ get_all_tags.data.map(function(t){ return { label: t.nombre, value: t.id } }) }}\n",
+  "originalBottomRow": 29,
+  "originalTopRow": 1,
+  "parentColumnSpace": 7.23675537109375,
+  "parentId": "q9n1k2q7ym",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 32,
+  "topRow": 1,
+  "type": "CHECKBOX_GROUP_WIDGET",
+  "version": 2,
+  "widgetId": "3bkqdwt06u",
+  "widgetName": "checkbox_tags"
+}

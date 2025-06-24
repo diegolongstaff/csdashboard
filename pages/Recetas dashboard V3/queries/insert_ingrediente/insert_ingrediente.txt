@@ -1,0 +1,10 @@
+INSERT INTO ingredientes
+  (nombre, unidad_base_id, kcal_100, prot_100, grasa_100, carb_100, fibra_100)
+VALUES
+  ('{{ input_new_ing_nombre.text }}',
+   '{{ select_new_unidad_base.selectedOptionValue }}',
+   {{ kcal_100 }},
+   {{ prot_100 }},
+   {{ grasa_100 }},
+   {{ carb_100 }},
+   {{ fibra_100 }});

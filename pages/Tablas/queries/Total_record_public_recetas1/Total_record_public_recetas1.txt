@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.recetas where nombre ilike '%{{tabla_recetas.searchText}}%';

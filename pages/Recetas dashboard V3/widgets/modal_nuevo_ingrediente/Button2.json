@@ -1,0 +1,56 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "fxhowuguu0",
+  "leftColumn": 50,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "needsErrorInfo": false,
+  "onClick": "{{\n  // 1) Lanza la inserción\n  insert_ingrediente\n    .run()\n    // 2) Cuando termine, refresca la lista de ingredientes\n    .then(() => get_ingredientes.run())\n    // 3) Luego cierra el modal\n    .then(() => closeModal(\"modal_nuevo_ingrediente\"))\n    // 4) Y muestra una alerta de éxito\n    .then(() => showAlert(\"Ingrediente agregado 👍\", \"success\"))\n    .catch(err => {\n      // Si algo falla, avisamos y no cerramos el modal\n      showAlert(\"Error creando ingrediente: \" + err.message, \"error\");\n    });\n}}\n",
+  "originalBottomRow": 22,
+  "originalTopRow": 18,
+  "parentId": "z4vhpg8kh6",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Confirm",
+  "topRow": 20,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "uk7i8qmpzm",
+  "widgetName": "Button2"
+}

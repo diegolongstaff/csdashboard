@@ -1,0 +1,63 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "coa1q4rppg",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Unidad",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "seleccionar la unidad del ingrediente",
+  "labelWidth": 5,
+  "leftColumn": 14,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 43,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 36,
+  "needsErrorInfo": false,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 7.4464569091796875,
+  "parentId": "lhhbkuhk3w",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n  get_unidades.data.map(u => ({\n    label: u.abreviatura + \" (\" + u.nombre + \")\",\n    value: u.id\n  }))\n}}\n",
+  "topRow": 36,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "w0fbfw0j9u",
+  "widgetName": "select_unidad"
+}

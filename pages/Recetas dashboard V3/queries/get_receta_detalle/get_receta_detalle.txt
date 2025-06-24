@@ -1,0 +1,3 @@
+SELECT *
+FROM recetas
+WHERE id = '{{ tabla_recetas.selectedRow.receta_id }}'

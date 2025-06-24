@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 35,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "plus",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cucidcp8cf",
+  "leftColumn": 57,
+  "minWidth": 50,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 57,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 31,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal('modal_nuevo_ingrediente')}}",
+  "parentColumnSpace": 7.4464569091796875,
+  "parentId": "lhhbkuhk3w",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 61,
+  "tooltip": "Nuevo ingrediente a la tabla ingredientes",
+  "topRow": 31,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "u1uv0dz57s",
+  "widgetName": "btn_add_ingrediente"
+}

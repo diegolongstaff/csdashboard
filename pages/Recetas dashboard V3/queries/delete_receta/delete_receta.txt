@@ -1,0 +1,1 @@
+DELETE FROM recetas WHERE id = '{{ tabla_recetas.selectedRow.id }}';

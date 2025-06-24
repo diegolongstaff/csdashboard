@@ -1,0 +1,29 @@
+INSERT INTO recetas (
+  nombre,
+  descripcion,
+  ingredientes_texto,
+  porciones_base,
+  tiempo_min,
+  imagen_url,
+  calorias_por_porcion,
+  proteinas_g,
+  grasas_g,
+  carbohidratos_g,
+  es_publica,
+  es_oficial
+)
+VALUES (
+  '{{ Input_nombre.text }}',
+  '{{ Input_descripcion.text }}',
+  '{{ Input_ingredientes.text }}',
+  {{ Number(Input_porciones.text) }},
+  {{ Number(Input_tiempo.text) }},
+  '{{ Input_imagen.text }}',
+  {{ Number(Input_calorias.text) }},
+  {{ Number(Input_proteinas.text) }},
+  {{ Number(Input_grasas.text) }},
+  {{ Number(Input_carbohidratos.text) }},
+  true,
+  true
+)
+RETURNING id;

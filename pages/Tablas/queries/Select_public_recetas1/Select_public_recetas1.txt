@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.recetas
+WHERE
+  "nombre" ilike '%{{tabla_recetas.searchText}}%'
+ORDER BY
+  "{{tabla_recetas.sortOrder.column || 'id'}}" {{tabla_recetas.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tabla_recetas.pageSize}}
+OFFSET
+  {{tabla_recetas.pageOffset}}

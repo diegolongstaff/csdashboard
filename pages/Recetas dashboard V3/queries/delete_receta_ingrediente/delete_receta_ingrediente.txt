@@ -1,0 +1,2 @@
+DELETE FROM receta_ingredientes
+WHERE id = '{{ appsmith.store.ingredientToDelete }}';

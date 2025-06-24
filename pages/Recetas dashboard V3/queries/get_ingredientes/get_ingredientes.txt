@@ -1,0 +1,3 @@
+SELECT id, nombre
+FROM ingredientes
+ORDER BY nombre;

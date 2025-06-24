@@ -1,0 +1,23 @@
+UPDATE public.recetas 
+SET 
+  "usuario_id" = '{{ tabla_recetas.updatedRow.usuario_id }}',
+  "es_oficial" = '{{ tabla_recetas.updatedRow.es_oficial }}',
+  "es_publica" = '{{ tabla_recetas.updatedRow.es_publica }}',
+  "nombre" = '{{ Input_nombre.text }}',
+  "descripcion" = '{{ Input_descripcion.text }}',
+  "porciones_base" = {{ Number(Input_porciones.text) }},
+  "tiempo_min" = {{ Number(Input_tiempo.text) }},
+  "created_at" = '{{ tabla_recetas.updatedRow.created_at }}',
+  "imagen_url" = '{{ Input_imagen.text }}',
+  "dificultad" = '{{ tabla_recetas.updatedRow.dificultad }}',
+  "copiada_de_id" = '{{ tabla_recetas.updatedRow.copiada_de_id }}',
+  "calorias_por_porcion" = {{ Number(Input_calorias.text) }},
+  "proteinas_g" = {{ Number(Input_proteinas.text) }},
+  "grasas_g" = {{ Number(Input_grasas.text) }},
+  "carbohidratos_g" = {{ Number(Input_carbohidratos.text) }},
+  "fibra_g" = {{ Number(tabla_recetas.updatedRow.fibra_g) }},
+  "sodio_mg" = {{ Number(tabla_recetas.updatedRow.sodio_mg) }},
+  "ingredientes_texto" = '{{ Input_ingredientes.text }}'
+WHERE 
+  "id" = '{{ tabla_recetas.updatedRow.id }}';
+

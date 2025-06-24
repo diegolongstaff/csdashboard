@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "plus",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cucidcp8cf",
+  "leftColumn": 45,
+  "minWidth": 50,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 33,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{showModal('modal_new_tag')}}",
+  "parentColumnSpace": 7.4464569091796875,
+  "parentId": "q9n1k2q7ym",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 49,
+  "tooltip": "Nuevo tag",
+  "topRow": 10,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "h3gjhdilt7",
+  "widgetName": "btn_new_tag"
+}
