@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 49,
+  "bottomRow": 62,
   "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
   "defaultText": "{{appsmith.store.modo === 'nueva' ? '' : tabla_recetas.selectedRow.imagen_url || '' }}",
   "dynamicBindingPathList": [
@@ -52,7 +52,7 @@
   "rightColumn": 62,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 42,
+  "topRow": 55,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "wnlh8rebq8",
