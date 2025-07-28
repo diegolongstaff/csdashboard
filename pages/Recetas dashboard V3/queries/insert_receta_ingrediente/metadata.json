@@ -5,12 +5,12 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO receta_ingredientes\n  (receta_id,\n   ingrediente_id,\n   cantidad_original,\n   unidad_original,\n   cantidad,\n   unidad,\n   notas,\n   cantidad_base,\n   unidad_base)\nVALUES\n  (\n    '{{ appsmith.store.receta_activa_id }}',\n    '{{ select_ingrediente.selectedOptionValue }}',\n    {{ input_cantidad.value }},\n    '{{ select_unidad.selectedOptionValue }}',\n    NULL,\n    NULL,\n    NULL,\n    NULL,\n    NULL\n  );\n",
+      "body": "INSERT INTO receta_ingredientes\n  (receta_id,\n   ingrediente_id,\n   cantidad_original,\n   unidad_original,\n   notas,\n   cantidad_base,\n   unidad_base)\nVALUES\n  (\n    '{{ appsmith.store.receta_activa_id }}',\n    '{{ select_ingrediente.selectedOptionValue }}',\n    {{ input_cantidad.value }},\n    '{{ select_unidad.selectedOptionValue }}',\n    NULL,\n    NULL,\n    NULL\n  );\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000

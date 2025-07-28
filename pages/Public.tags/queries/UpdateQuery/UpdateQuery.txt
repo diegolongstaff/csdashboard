@@ -1,0 +1,5 @@
+UPDATE public."tags" SET
+		"nombre" = '{{update_form.fieldState.nombre.isVisible ? update_form.formData.nombre : update_form.sourceData.nombre}}',
+		"color" = '{{update_form.fieldState.color.isVisible ? update_form.formData.color : update_form.sourceData.color}}',
+    "icono" = '{{update_form.fieldState.icono.isVisible ? update_form.formData.icono : update_form.sourceData.icono}}'
+WHERE "id" = {{data_table.selectedRow.id}};

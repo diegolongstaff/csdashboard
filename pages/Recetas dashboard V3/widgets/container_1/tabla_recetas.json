@@ -847,7 +847,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{get_recetas.data}}",
   "textSize": "0.875rem",
-  "topRow": 5,
+  "topRow": 0,
   "totalRecordsCount": "{{Total_record_public_recetas1.data[0].count}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,

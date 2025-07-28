@@ -1,0 +1,28 @@
+INSERT INTO public."ingredientes" (
+	"id",
+	"nombre",
+	"kcal_100",
+	"prot_100",
+	"grasa_100",
+	"carb_100",
+	"fibra_100",
+	"usuario_id",
+	"es_publico",
+	"categoria_id",
+	"estado",
+	"fuente"
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.nombre}}',
+	'{{insert_form.formData.kcal_100}}',
+	'{{insert_form.formData.prot_100}}',
+	'{{insert_form.formData.grasa_100}}',
+	'{{insert_form.formData.carb_100}}',
+	'{{insert_form.formData.fibra_100}}',
+	'{{insert_form.formData.usuario_id}}',
+	'{{insert_form.formData.es_publico}}',
+	'{{insert_form.formData.categoria_id}}',
+	'{{insert_form.formData.estado}}',
+	'{{insert_form.formData.fuente}}'
+);

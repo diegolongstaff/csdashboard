@@ -1,0 +1,13 @@
+UPDATE public."recetas" SET
+		"nombre" = '{{update_form.fieldState.nombre.isVisible ? update_form.formData.nombre : update_form.sourceData.nombre}}',
+		"usuario_id" = '{{update_form.fieldState.usuario_id.isVisible ? update_form.formData.usuario_id : update_form.sourceData.usuario_id}}',
+    "es_oficial" = '{{update_form.fieldState.es_oficial.isVisible ? update_form.formData.es_oficial : update_form.sourceData.es_oficial}}',
+		"es_publica" = '{{update_form.fieldState.es_publica.isVisible ? update_form.formData.es_publica : update_form.sourceData.es_publica}}',
+		"descripcion" = '{{update_form.fieldState.descripcion.isVisible ? update_form.formData.descripcion : update_form.sourceData.descripcion}}',
+		"porciones_base" = '{{update_form.fieldState.porciones_base.isVisible ? update_form.formData.porciones_base : update_form.sourceData.porciones_base}}',
+		"tiempo_min" = '{{update_form.fieldState.tiempo_min.isVisible ? update_form.formData.tiempo_min : update_form.sourceData.tiempo_min}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}',
+		"imagen_url" = '{{update_form.fieldState.imagen_url.isVisible ? update_form.formData.imagen_url : update_form.sourceData.imagen_url}}',
+		"dificultad" = '{{update_form.fieldState.dificultad.isVisible ? update_form.formData.dificultad : update_form.sourceData.dificultad}}',
+		"copiada_de_id" = '{{update_form.fieldState.copiada_de_id.isVisible ? update_form.formData.copiada_de_id : update_form.sourceData.copiada_de_id}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

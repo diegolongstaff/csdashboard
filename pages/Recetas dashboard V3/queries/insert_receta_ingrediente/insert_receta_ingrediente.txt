@@ -3,8 +3,6 @@ INSERT INTO receta_ingredientes
    ingrediente_id,
    cantidad_original,
    unidad_original,
-   cantidad,
-   unidad,
    notas,
    cantidad_base,
    unidad_base)
@@ -14,8 +12,6 @@ VALUES
     '{{ select_ingrediente.selectedOptionValue }}',
     {{ input_cantidad.value }},
     '{{ select_unidad.selectedOptionValue }}',
-    NULL,
-    NULL,
     NULL,
     NULL,
     NULL

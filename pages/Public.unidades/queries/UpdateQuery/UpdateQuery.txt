@@ -1,0 +1,7 @@
+UPDATE public."unidades" SET
+		"nombre" = '{{update_form.fieldState.nombre.isVisible ? update_form.formData.nombre : update_form.sourceData.nombre}}',
+		"abreviatura" = '{{update_form.fieldState.abreviatura.isVisible ? update_form.formData.abreviatura : update_form.sourceData.abreviatura}}',
+    "unidad_base_id" = '{{update_form.fieldState.unidad_base_id.isVisible ? update_form.formData.unidad_base_id : update_form.sourceData.unidad_base_id}}',
+		"factor" = '{{update_form.fieldState.factor.isVisible ? update_form.formData.factor : update_form.sourceData.factor}}',
+		"created_at" = '{{update_form.fieldState.created_at.isVisible ? update_form.formData.created_at : update_form.sourceData.created_at}}'
+WHERE "id" = {{data_table.selectedRow.id}};

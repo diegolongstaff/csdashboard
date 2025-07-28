@@ -1,0 +1,13 @@
+UPDATE public."ingredientes" SET
+		"nombre" = '{{update_form.fieldState.nombre.isVisible ? update_form.formData.nombre : update_form.sourceData.nombre}}',
+		"kcal_100" = '{{update_form.fieldState.kcal_100.isVisible ? update_form.formData.kcal_100 : update_form.sourceData.kcal_100}}',
+    "prot_100" = '{{update_form.fieldState.prot_100.isVisible ? update_form.formData.prot_100 : update_form.sourceData.prot_100}}',
+		"grasa_100" = '{{update_form.fieldState.grasa_100.isVisible ? update_form.formData.grasa_100 : update_form.sourceData.grasa_100}}',
+		"carb_100" = '{{update_form.fieldState.carb_100.isVisible ? update_form.formData.carb_100 : update_form.sourceData.carb_100}}',
+		"fibra_100" = '{{update_form.fieldState.fibra_100.isVisible ? update_form.formData.fibra_100 : update_form.sourceData.fibra_100}}',
+		"usuario_id" = '{{update_form.fieldState.usuario_id.isVisible ? update_form.formData.usuario_id : update_form.sourceData.usuario_id}}',
+		"es_publico" = '{{update_form.fieldState.es_publico.isVisible ? update_form.formData.es_publico : update_form.sourceData.es_publico}}',
+		"categoria_id" = '{{update_form.fieldState.categoria_id.isVisible ? update_form.formData.categoria_id : update_form.sourceData.categoria_id}}',
+		"estado" = '{{update_form.fieldState.estado.isVisible ? update_form.formData.estado : update_form.sourceData.estado}}',
+		"fuente" = '{{update_form.fieldState.fuente.isVisible ? update_form.formData.fuente : update_form.sourceData.fuente}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

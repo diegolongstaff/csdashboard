@@ -31,7 +31,19 @@
       "isDefault": true
     },
     {
-      "id": "Tablas",
+      "id": "Tabla.ingredientes",
+      "isDefault": false
+    },
+    {
+      "id": "Public.recetas",
+      "isDefault": false
+    },
+    {
+      "id": "Public.unidades",
+      "isDefault": false
+    },
+    {
+      "id": "Public.tags",
       "isDefault": false
     }
   ],

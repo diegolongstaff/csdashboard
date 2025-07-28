@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "6841cb726a626865613a3b7b_a39b306c-f547-482d-b900-5019f561a5d9",
+  "unpublishedPage": {
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 860,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 900,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 1174,
+          "snapColumns": 64,
+          "snapRows": 125,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 94,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Public.unidades",
+    "slug": "public-unidades"
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "animateLoading": true,
+  "autoGenerateForm": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#fff",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 86,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "childStylesheet": {
+    "ARRAY": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "CHECKBOX": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    },
+    "CURRENCY_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "DATEPICKER": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "EMAIL_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTILINE_TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "MULTISELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "OBJECT": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none"
+    },
+    "PASSWORD_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "PHONE_NUMBER_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "RADIO_GROUP": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "SELECT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    },
+    "SWITCH": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "boxShadow": "none"
+    },
+    "TEXT_INPUT": {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none"
+    }
+  },
+  "disabledWhenInvalid": true,
+  "displayName": "JSON Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "title"
+    },
+    {
+      "key": "resetButtonStyles.buttonColor"
+    },
+    {
+      "key": "resetButtonStyles.borderRadius"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "submitButtonStyles.borderRadius"
+    },
+    {
+      "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.usuario_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.usuario_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.usuario_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.es_oficial.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.es_oficial.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.es_publica.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.es_publica.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.nombre.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.nombre.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.nombre.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.descripcion.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.descripcion.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.descripcion.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.porciones_base.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.porciones_base.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.porciones_base.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.tiempo_min.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.tiempo_min.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.tiempo_min.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_at.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_at.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.created_at.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.imagen_url.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.imagen_url.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.imagen_url.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.dificultad.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.dificultad.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.dificultad.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.copiada_de_id.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.copiada_de_id.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.copiada_de_id.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.calorias_por_porcion.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.calorias_por_porcion.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.calorias_por_porcion.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.proteinas_g.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.proteinas_g.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.proteinas_g.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.grasas_g.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.grasas_g.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.grasas_g.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.carbohidratos_g.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.carbohidratos_g.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.carbohidratos_g.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.fibra_g.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.fibra_g.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.fibra_g.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.sodio_mg.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.sodio_mg.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.sodio_mg.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.ingredientes_texto.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.ingredientes_texto.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.ingredientes_texto.accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "onSubmit"
+    },
+    {
+      "key": "schema.__root_schema__.children.es_oficial.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.es_publica.defaultValue"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSubmit"
+    }
+  ],
+  "fieldLimitExceeded": false,
+  "fixedFooter": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.6bacf7df.svg",
+  "isLoading": false,
+  "isVisible": "{{!!data_table.selectedRow.id}}",
+  "key": "h9l9ozr8op",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 39,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
+  "parentColumnSpace": 16.3125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetButtonLabel": "Reset",
+  "resetButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "SECONDARY"
+  },
+  "rightColumn": 64,
+  "schema": {
+    "__root_schema__": {
+      "accessor": "__root_schema__",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "cellBoxShadow": "none",
+      "children": {
+        "calorias_por_porcion": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "calorias_por_porcion",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.calorias_por_porcion))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "calorias_por_porcion",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Calorias Por Porcion",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "calorias_por_porcion",
+          "position": 11,
+          "sourceData": 400
+        },
+        "carbohidratos_g": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "carbohidratos_g",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.carbohidratos_g))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "carbohidratos_g",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Carbohidratos G",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "carbohidratos_g",
+          "position": 14,
+          "sourceData": 30
+        },
+        "copiada_de_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "copiada_de_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.copiada_de_id))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "copiada_de_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Copiada De Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "copiada_de_id",
+          "position": 10
+        },
+        "created_at": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "created_at",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.created_at))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "created_at",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Created At",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "created_at",
+          "position": 7,
+          "sourceData": "2025-06-26T02:03:36.482065Z"
+        },
+        "descripcion": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "descripcion",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.descripcion))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Multiline Text Input",
+          "iconAlign": "left",
+          "identifier": "descripcion",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Descripcion",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "descripcion",
+          "position": 4,
+          "sourceData": "1. Cortar la carne en trozos y dorar en una cacerola con aceite de oliva. 2. Agregar la cebolla picada, las zanahorias en rodajas y las papas en cubos. 3. Incorporar el caldo de carne y dejar cocinar a fuego lento hasta que las verduras estén tiernas. 4. Rectificar la sazón con sal y servir caliente."
+        },
+        "dificultad": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "dificultad",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.dificultad))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "dificultad",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Dificultad",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "dificultad",
+          "position": 9,
+          "sourceData": 2
+        },
+        "es_oficial": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "es_oficial",
+          "alignWidget": "LEFT",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.es_oficial))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Switch",
+          "identifier": "es_oficial",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Es Oficial",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "es_oficial",
+          "position": 1,
+          "sourceData": true
+        },
+        "es_publica": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "es_publica",
+          "alignWidget": "LEFT",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "boolean",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.es_publica))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Switch",
+          "identifier": "es_publica",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isVisible": true,
+          "label": "Es Publica",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "es_publica",
+          "position": 2,
+          "sourceData": true
+        },
+        "fibra_g": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "fibra_g",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.fibra_g))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "fibra_g",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Fibra G",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "fibra_g",
+          "position": 15
+        },
+        "grasas_g": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "grasas_g",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.grasas_g))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "grasas_g",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Grasas G",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "grasas_g",
+          "position": 13,
+          "sourceData": 15
+        },
+        "imagen_url": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "imagen_url",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.imagen_url))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "imagen_url",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Imagen Url",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "imagen_url",
+          "position": 8,
+          "sourceData": "https://agziccjqlmttcfroniuj.supabase.co/storage/v1/object/public/imagenes//logo-hornito2-HD.png"
+        },
+        "ingredientes_texto": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "ingredientes_texto",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ingredientes_texto))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Multiline Text Input",
+          "iconAlign": "left",
+          "identifier": "ingredientes_texto",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Ingredientes Texto",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "ingredientes_texto",
+          "position": 17,
+          "sourceData": "500 gramos Carne de res\n4 unidades Papas\n1 unidad Cebolla\n2 unidades Zanahoria\n500 mililitros Caldo de carne\n2 cucharadas Aceite de oliva\n1 pizca Sal"
+        },
+        "nombre": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "nombre",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.nombre))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "nombre",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Nombre",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "nombre",
+          "position": 3,
+          "sourceData": "Cacerola"
+        },
+        "porciones_base": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "porciones_base",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.porciones_base))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "porciones_base",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Porciones Base",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "porciones_base",
+          "position": 5,
+          "sourceData": 4
+        },
+        "proteinas_g": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "proteinas_g",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.proteinas_g))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "proteinas_g",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Proteinas G",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "proteinas_g",
+          "position": 12,
+          "sourceData": 25
+        },
+        "sodio_mg": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "sodio_mg",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.sodio_mg))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "sodio_mg",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Sodio Mg",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "sodio_mg",
+          "position": 16
+        },
+        "tiempo_min": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "tiempo_min",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.tiempo_min))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "tiempo_min",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Tiempo Min",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "tiempo_min",
+          "position": 6,
+          "sourceData": 60
+        },
+        "usuario_id": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "usuario_id",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "null",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.usuario_id))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "usuario_id",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Usuario Id",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "usuario_id",
+          "position": 0
+        }
+      },
+      "dataType": "object",
+      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+      "fieldType": "Object",
+      "identifier": "__root_schema__",
+      "isCustomField": false,
+      "isDisabled": false,
+      "isRequired": false,
+      "isVisible": true,
+      "label": "",
+      "labelTextSize": "0.875rem",
+      "originalIdentifier": "__root_schema__",
+      "position": -1,
+      "sourceData": {
+        "col1": 5,
+        "col2": "skill B",
+        "col3": 9,
+        "col4": true
+      }
+    }
+  },
+  "scrollContents": true,
+  "showReset": true,
+  "sourceData": "{{_.omit(data_table.selectedRow, \"customColumn1\", \"__originalIndex__\", \"id\")}}",
+  "submitButtonLabel": "Update",
+  "submitButtonStyles": {
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "boxShadow": "none",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonVariant": "PRIMARY"
+  },
+  "title": "Update Row id: {{data_table.selectedRow.id}}",
+  "topRow": 0,
+  "type": "JSON_FORM_WIDGET",
+  "version": 1,
+  "widgetId": "y5cjzuxnb3",
+  "widgetName": "update_form"
+}

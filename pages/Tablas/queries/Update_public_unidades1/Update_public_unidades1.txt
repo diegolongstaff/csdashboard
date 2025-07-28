@@ -1,1 +1,0 @@
-UPDATE public.unidades SET "nombre"= '{{tabla_unidades.updatedRow.nombre}}', "abreviatura"= '{{tabla_unidades.updatedRow.abreviatura}}', "unidad_base_id"= '{{tabla_unidades.updatedRow.unidad_base_id}}', "factor"= '{{tabla_unidades.updatedRow.factor}}', "created_at"= '{{tabla_unidades.updatedRow.created_at}}' WHERE "id"= {{tabla_unidades.updatedRow.id}};

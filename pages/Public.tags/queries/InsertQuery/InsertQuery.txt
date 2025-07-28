@@ -1,0 +1,10 @@
+INSERT INTO public."tags" (
+	"id",
+	"nombre",
+	"color",
+	"icono")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.nombre}}',
+	'{{insert_form.formData.color}}',
+	'{{insert_form.formData.icono}}');
