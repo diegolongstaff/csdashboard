@@ -2,21 +2,22 @@
   "animateLoading": true,
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
+  "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 101,
+  "bottomRow": 48,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 60,
+      "bottomRow": 160,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
       "isLoading": false,
       "isVisible": true,
       "leftColumn": 0,
-      "minHeight": 18,
+      "minHeight": 61.25,
       "parentColumnSpace": 1,
-      "parentId": "wsfwbr3uah",
+      "parentId": "r96hz5j0tf",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -25,18 +26,18 @@
         "detachFromLayout": true
       },
       "renderMode": "CANVAS",
-      "rightColumn": 252,
+      "rightColumn": 35,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "ph7hw2uzto",
-      "widgetName": "canvas"
+      "widgetId": "0ypd2ct2rt",
+      "widgetName": "Canvas12"
     }
   ],
   "containerStyle": "card",
   "displayName": "Container",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
@@ -45,8 +46,8 @@
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "3pbz8mixae",
-  "leftColumn": 8,
+  "key": "zkhg45ifkb",
+  "leftColumn": 36,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -58,14 +59,14 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 120,
-  "originalTopRow": 114,
-  "parentColumnSpace": 3.9375,
+  "originalBottomRow": 48,
+  "originalTopRow": 32,
+  "parentColumnSpace": 0.546875,
   "parentId": "f42c7n0xg4",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 53,
+  "rightColumn": 46,
   "searchTags": [
     "div",
     "parent",
@@ -77,9 +78,9 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 95,
+  "topRow": 32,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "wsfwbr3uah",
-  "widgetName": "container_botones"
+  "widgetId": "r96hz5j0tf",
+  "widgetName": "Container1"
 }
