@@ -1,0 +1,3 @@
+SELECT id, nombre, marca, supermercado, ingrediente_id
+FROM productos_por_supermercado
+ORDER BY created_at DESC;

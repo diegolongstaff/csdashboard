@@ -1,0 +1,7 @@
+SELECT id,
+       nombre,
+       abreviatura,
+       unidad_base_id,
+       factor
+FROM unidades
+ORDER BY nombre;

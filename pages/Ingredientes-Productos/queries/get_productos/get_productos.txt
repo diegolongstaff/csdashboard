@@ -1,0 +1,17 @@
+SELECT 
+  pps.id,
+  pps.nombre,
+  pps.supermercado,
+  pps.precio,
+  pps.url_compra,
+  pps.url_imagen,
+  pps.sku_supermercado,
+  pps.pais_codigo,
+  pps.ingrediente_id,
+  ing.nombre AS nombre_ingrediente,
+  pps.created_at,
+  pps.updated_at,
+	pps.es_comestible
+FROM productos_por_supermercado pps
+LEFT JOIN ingredientes ing ON pps.ingrediente_id = ing.id
+ORDER BY pps.es_comestible DESC, pps.nombre ASC;

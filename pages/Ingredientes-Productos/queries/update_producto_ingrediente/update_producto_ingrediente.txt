@@ -1,0 +1,4 @@
+SELECT * FROM auth."audit_log_entries" LIMIT 10;UPDATE productos_por_supermercado
+SET ingrediente_id = '{{ dropdown_ingredientes.selectedOptionValue }}',
+    updated_at = now()
+WHERE id = '{{ tabla_productos.selectedRow.id }}';

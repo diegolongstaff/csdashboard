@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yh3ryi4pvj",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 52,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onClick": "{{update_producto_ingrediente.run().then(() => {\n  showAlert('Ingrediente asignado correctamente', 'success');\n  get_productos.run();\n}).catch(() => {\n  showAlert('Error al asignar ingrediente', 'error');\n});}}",
+  "parentColumnSpace": 16.7841796875,
+  "parentId": "9b50n4jnl1",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 60,
+  "text": "Guardar",
+  "tooltip": "Guardar los cambios",
+  "topRow": 9,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "b7k0d64bkh",
+  "widgetName": "btn_asignar"
+}

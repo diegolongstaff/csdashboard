@@ -1,0 +1,71 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "dgygd1ix67",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Asociar ingrediente",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Seleccionar un ingrediente de la lista para asociar al producto",
+  "labelWidth": 5,
+  "leftColumn": 46,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{ \n  update_producto_ingrediente.run(() => {\n      get_productos.run();\n      showAlert(\"Ingrediente asignado automáticamente\", \"success\");\n    }, \n    (err) => {\n      showAlert(\"Error al asignar ingrediente: \" + err.message, \"error\");\n    })\n}}\n",
+  "optionLabel": "value",
+  "optionValue": "label",
+  "parentColumnSpace": 16.7841796875,
+  "parentId": "9b50n4jnl1",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 60,
+  "serverSideFiltering": false,
+  "sourceData": "{{get_ingredientes.data.map( (obj) =>{ return  {'label': obj.id, 'value': obj.nombre } })}}",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "8rpxvnls8z",
+  "widgetName": "dropdown_ingredientes"
+}

@@ -1,0 +1,8 @@
+INSERT INTO ingredientes (id, nombre, unidad_base_id, es_publico, created_at)
+VALUES (
+  gen_random_uuid(),
+  '{{ input_nombre_nuevo_ingrediente.text }}',
+	'{{ select_new_unidad_base.selectedOptionValue }}',
+  true,
+  now()
+);

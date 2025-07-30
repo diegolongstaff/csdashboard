@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.productos_por_supermercado where nombre ilike '%{{tabla_productos.searchText}}%';

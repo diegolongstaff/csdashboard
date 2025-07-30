@@ -45,6 +45,10 @@
     {
       "id": "Public.tags",
       "isDefault": false
+    },
+    {
+      "id": "Ingredientes-Productos",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

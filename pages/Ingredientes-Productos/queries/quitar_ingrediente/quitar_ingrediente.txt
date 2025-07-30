@@ -1,0 +1,4 @@
+UPDATE productos_por_supermercado
+SET ingrediente_id = null,
+    updated_at = now()
+WHERE id = '{{ tabla_productos.selectedRow.id }}';

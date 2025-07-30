@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.productos_por_supermercado
+WHERE
+  "nombre" ilike '%{{tabla_productos.searchText}}%'
+ORDER BY
+  "{{tabla_productos.sortOrder.column || 'id'}}" {{tabla_productos.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tabla_productos.pageSize}}
+OFFSET
+  {{tabla_productos.pageOffset}}
