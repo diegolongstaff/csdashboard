@@ -15,9 +15,9 @@
       "isLoading": false,
       "isVisible": true,
       "leftColumn": 0,
-      "minHeight": 61.25,
+      "minHeight": 74.375,
       "parentColumnSpace": 1,
-      "parentId": "r96hz5j0tf",
+      "parentId": "wkyfy1o05h",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -26,18 +26,18 @@
         "detachFromLayout": true
       },
       "renderMode": "CANVAS",
-      "rightColumn": 35,
+      "rightColumn": 83.125,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "0ypd2ct2rt",
-      "widgetName": "Canvas12"
+      "widgetId": "ugk1i1kb44",
+      "widgetName": "Canvas13"
     }
   ],
   "containerStyle": "card",
   "displayName": "Container",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
@@ -46,8 +46,8 @@
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "zkhg45ifkb",
-  "leftColumn": 34,
+  "key": "z0p6s0ylp8",
+  "leftColumn": 44,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -59,12 +59,14 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "parentColumnSpace": 0.546875,
+  "originalBottomRow": 40,
+  "originalTopRow": 21,
+  "parentColumnSpace": 1.298828125,
   "parentId": "f42c7n0xg4",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 44,
+  "rightColumn": 63,
   "searchTags": [
     "div",
     "parent",
@@ -79,6 +81,6 @@
   "topRow": 21,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "r96hz5j0tf",
-  "widgetName": "Container1"
+  "widgetId": "wkyfy1o05h",
+  "widgetName": "Container2"
 }
