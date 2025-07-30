@@ -633,7 +633,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 46,
+  "rightColumn": 44,
   "searchKey": "",
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{get_productos.data}}",
