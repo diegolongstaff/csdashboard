@@ -1,0 +1,4 @@
+UPDATE recetas
+SET es_publica = {{ es_publica }},
+    updated_at = now()
+WHERE id = {{ id }};

@@ -1,0 +1,58 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 44,
+  "boxShadow": "none",
+  "defaultSwitchState": "{{ tabla_recetas.selectedRow.es_publica }}\n",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultSwitchState"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultSwitchState"
+    },
+    {
+      "key": "onChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a3en1v0vmu",
+  "label": "Es publica",
+  "labelPosition": "Left",
+  "leftColumn": 36,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 55,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 51,
+  "needsErrorInfo": false,
+  "onChange": "{{ \n  update_receta_es_publica.run({\n    es_publica: sw_es_publica.isSwitchedOn,\n    id: tabla_recetas.selectedRow.id\n  },\n  () => {\n    get_recetas.run();  // si querés refrescar la tabla después\n    showAlert(\"Actualizado correctamente\", \"success\");\n  },\n  (err) => {\n    showAlert(\"Error: \" + err.message, \"error\");\n  })\n}}\n",
+  "originalBottomRow": 55,
+  "originalTopRow": 51,
+  "parentColumnSpace": 11.584732055664062,
+  "parentId": "f42c7n0xg4",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 48,
+  "topRow": 40,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "rdhaw4emq8",
+  "widgetName": "sw_es_publica"
+}
