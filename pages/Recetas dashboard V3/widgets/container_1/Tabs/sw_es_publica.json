@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignWidget": "LEFT",
   "animateLoading": true,
-  "bottomRow": 44,
+  "bottomRow": 55,
   "boxShadow": "none",
   "defaultSwitchState": "{{ tabla_recetas.selectedRow.es_publica }}\n",
   "dynamicBindingPathList": [
@@ -50,7 +50,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 48,
-  "topRow": 40,
+  "topRow": 51,
   "type": "SWITCH_WIDGET",
   "version": 1,
   "widgetId": "rdhaw4emq8",

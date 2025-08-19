@@ -1,0 +1,3 @@
+UPDATE recetas
+SET imagen_url = {{ url }}
+WHERE id = {{ tabla_recetas.selectedRow.id }};
